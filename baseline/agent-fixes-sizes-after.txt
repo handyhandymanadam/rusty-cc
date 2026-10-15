@@ -1,0 +1,15 @@
+clean                total     89 records   1  summary=89
+errors3              total   1214 records   5  diagnostic=1096 summary=118
+warnings             total   1332 records   6  diagnostic=1215 summary=117
+template             total   1001 records   3  diagnostic=884 summary=117
+cascade_names        total   1082 records   3  diagnostic=943 summary=139
+unknown_type         total   1180 records   3  diagnostic=1042 summary=138
+deep_templates       total   1411 records   3  diagnostic=1294 summary=117
+manywarns            total  12245 records  53  diagnostic=11975 summary=270
+linkfail             total    766 records   3  diagnostic=611 summary=155
+fix_preview          total   1950 records   6  diagnostic=977 fix-preview=842 summary=131
+fix_preview_assign   total   1299 records   3  diagnostic=444 fix-preview=731 summary=124
+fix_preview_mixed    total   2185 records   7  diagnostic=1169 fix-preview=887 summary=129
+effective            total    882 records   2  effective-flags=793 summary=89
+why_not              total   2266 records   3  why-not=2179 summary=87
+compile_time         total   2461 records   2  compile-time=2373 summary=88

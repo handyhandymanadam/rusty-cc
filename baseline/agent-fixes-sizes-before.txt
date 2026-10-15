@@ -1,0 +1,11 @@
+clean                total    522 records   1  summary=522
+errors3              total   3062 records   5  diagnostic=2536 summary=526
+warnings             total   3382 records   6  diagnostic=2844 summary=538
+template             total   3527 records   3  diagnostic=3002 summary=525
+cascade_names        total   2467 records   3  diagnostic=1929 summary=538
+linkfail             total   1367 records   3  diagnostic=845 summary=522
+fix_preview          total   6768 records   6  diagnostic=3488 fix-preview=2752 summary=528
+fix_preview_mixed    total   7291 records   7  diagnostic=3919 fix-preview=2848 summary=524
+effective            total  25392 records   2  effective-flags=24870 summary=522
+why_not              total   3101 records   3  why-not=2466 summary=635
+compile_time         total   3153 records   2  compile-time=2527 summary=626

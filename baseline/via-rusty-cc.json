@@ -1,0 +1,43 @@
+{
+ "compiler": [
+  "/work/rusty-cc/target/release/rusty-cc"
+ ],
+ "runs": 12,
+ "jobs": {
+  "clean_c": {
+   "exit": 0,
+   "stdout_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+   "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+   "stderr_bytes": 0,
+   "median_ms": 18.5
+  },
+  "errors3_c": {
+   "exit": 1,
+   "stdout_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+   "stderr_sha256": "5c443ae7db265fc2389ed8a338633b10650c0767b333808bbdbfe4174995884f",
+   "stderr_bytes": 704,
+   "median_ms": 16.93
+  },
+  "template_cpp": {
+   "exit": 1,
+   "stdout_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+   "stderr_sha256": "ed2dc988a4efe10fea6df2842c5c787101a2aa9f8dc8e3d3718539633a8d8948",
+   "stderr_bytes": 1195,
+   "median_ms": 122.64
+  },
+  "warnings_c": {
+   "exit": 0,
+   "stdout_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+   "stderr_sha256": "1e5064eaf5f7133e35bfa18bbfa4f5af7aae95b52093e53d28cc2b1ccfa68ff6",
+   "stderr_bytes": 771,
+   "median_ms": 19.99
+  },
+  "linkfail_c": {
+   "exit": 1,
+   "stdout_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+   "stderr_sha256": "d888fdfd47ce1f33864d06656e1877add5acbd25c46c79ca08870b98162dd252",
+   "stderr_bytes": 203,
+   "median_ms": 45.16
+  }
+ }
+}

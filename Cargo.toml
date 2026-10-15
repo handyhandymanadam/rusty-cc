@@ -1,0 +1,10 @@
+[package]
+name = "rusty-cc"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+cpp_demangle = "0.5.1"
+serde = { version = "1.0.229", features = ["derive"] }
+serde_json = { version = "1", features = ["preserve_order"] }
+similar = "3.2.0"
